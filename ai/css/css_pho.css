@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .pho_hide{
+        display: none;
+    }
+    .pho_show{
+        display: block;
+    }
+    .nav_content{
+        height: 50px;
+    }
+    .main_cont{
+        width: auto;
+    }
+    .ban_cen{
+        display: block;
+    }
+    .nav_ul{
+        background-color: black;
+    }
+    .login_reg{
+        float: right;
+    }
+}

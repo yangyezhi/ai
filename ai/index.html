@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/layer.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/css_pho.css" />
+    <link rel="stylesheet" href="css/phone_rem.css" />
+  </head>
+  <body id="body">
+    <!-- 导航栏 -->
+    <div class="nav_content">
+      <div class="ban_cen main_cont">
+          <!-- 移动端显示 -->
+        <div class="navbar-header">
+          <img class="logo" src="img/logo_banner.png" alt="" />
+          <div class="login_reg log_pho pho_show">注册/登录</div>
+          <button
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#menu"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- 中跳转列表响应 -->
+        <div id="menu" class="collapse navbar-collapse box_content">
+          <ul class="nav navbar-nav nav_ul">
+            <li class="nav_act"><a href="#">主页</a></li>
+            <li><a href="#">优势</a></li>
+            <li><a href="#">合作伙伴</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">教程</a></li>
+            <li><a href="#">市场</a></li>
+            <li><a href="#">联系我们(招聘)</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                语言 <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">中文</a></li>
+                <li><a href="#">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- pc显示 -->
+        <div class="login_reg pho_hide">注册/登录</div>
+      </div>
+    </div>
+  </body>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/vue.min.js"></script>
+  <script src="js/layer.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/conmon.js"></script>
+  <script>
+    new Vue({
+      el: "#body",
+      data: {},
+      methods: {},
+    });
+  </script>
+</html>
